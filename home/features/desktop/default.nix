@@ -63,10 +63,10 @@
     enable = true;
     settings = {
       preload = [
-        "~/Pictures/Wallpapers/wall8.jpg"
+        "~/Pictures/Wallpapers/wall10.jpg"
       ];
       wallpaper = [
-        "eDP-1,~/Pictures/Wallpapers/wall8.jpg"
+        "eDP-1,~/Pictures/Wallpapers/wall10.jpg"
       ];
     };
   };

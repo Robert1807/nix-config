@@ -31,7 +31,7 @@
   ];
 
   fileSystems."/" = {
-    device = "/dev/disk/by-uuid/7423fbea-abf9-4945-92db-402ce6d0eb2b";
+    device = "/dev/disk/by-uuid/8013e82f-780f-445f-8e68-83eda183c2dc";
     fsType = "btrfs";
     options = [
       "rw"
@@ -43,7 +43,7 @@
   };
 
   fileSystems."/boot" = {
-    device = "/dev/disk/by-uuid/AD73-8FBE";
+    device = "/dev/disk/by-uuid/0CBB-574B";
     fsType = "vfat";
     options = [
       "rw"
@@ -81,7 +81,7 @@
       "uid=1000"
       "gid=1000"
       "mode=0755"
-      "size=40%"
+      "size=50%"
       "inode64"
     ];
   };
